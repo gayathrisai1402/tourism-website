@@ -95,29 +95,31 @@
   padding: 16px;
 }
 
-
 .carousel-item img,
 .embed-responsive iframe {
-  max-height: 400px;  
-  object-fit: cover;   
+  max-height: 260px;   
   width: 100%;
+  object-fit: cover;
 }
 
-
 .detailed-view-card-container {
-  max-width: 900px;
-  margin: auto;
+  background-color: white;
+  max-width: 650px;    
+  margin: 16px auto 24px;
   border-radius: 10px;
   overflow: hidden;
 }
 
-.carousel-inner img, 
+/* Slight rounding for media inside */
+.carousel-inner img,
 .embed-responsive iframe {
-  border-radius: 8px;
-}
-.detailed-view-bg-container {
-  background-size: cover;
-  background-position: center;
-  padding-bottom: 30px;
+  border-radius: 6px;
 }
 
+.detailed-view-bg-container {
+  background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-static-website/seabg.png");
+  background-size: cover;
+  background-position: center;
+  padding: 24px 0 40px;
+  height: auto;       
+}
