@@ -94,3 +94,30 @@
 .detailed-view-card-text-container {
   padding: 16px;
 }
+
+
+.carousel-item img,
+.embed-responsive iframe {
+  max-height: 400px;  
+  object-fit: cover;   
+  width: 100%;
+}
+
+
+.detailed-view-card-container {
+  max-width: 900px;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.carousel-inner img, 
+.embed-responsive iframe {
+  border-radius: 8px;
+}
+.detailed-view-bg-container {
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 30px;
+}
+
